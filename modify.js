@@ -304,6 +304,22 @@ const lut = {
     }
     return f
   },
+ unhq_bnda_a1_p: f => {
+    f.tippecanoe = {
+      layer: 'hq_bnd',
+      minzoom: 6,
+      maxzoom: 8
+    }
+    return f
+  },
+  unhq_bnda_a2_p: f => {
+    f.tippecanoe = {
+      layer: 'hq_bnd',
+      minzoom: 8,
+      maxzoom: 15
+    }
+    return f
+  },
   custom_unmap_0_bnda_a1: f => {
     f.tippecanoe = {
       layer: 'c_bnd',
@@ -313,6 +329,22 @@ const lut = {
     return f
   },
   custom_unmap_0_bnda_a2: f => {
+    f.tippecanoe = {
+      layer: 'c_bnd',
+      minzoom: 8,
+      maxzoom: 15
+    }
+    return f
+  },
+  custom_unmap_0_bnda_a1_p: f => {
+    f.tippecanoe = {
+      layer: 'c_bnd',
+      minzoom: 6,
+      maxzoom: 8
+    }
+    return f
+  },
+  custom_unmap_0_bnda_a2_p: f => {
     f.tippecanoe = {
       layer: 'c_bnd',
       minzoom: 8,
@@ -336,6 +368,22 @@ const lut = {
     }
     return f
   },
+  un_unmik_bnda_a_p: f => {
+    f.tippecanoe = {
+      layer: 'mik_bnd',
+      minzoom: 7,
+      maxzoom: 8
+    }
+    return f
+  },
+  un_unmik_bnda_a3_p: f => {
+    f.tippecanoe = {
+      layer: 'mik_bnd',
+      minzoom: 9,
+      maxzoom: 15
+    }
+    return f
+  },
   un_unmik_bndl: f => {
     f.tippecanoe = {
       layer: 'mik_bnd',
@@ -344,7 +392,47 @@ const lut = {
     }
     return f
   },
+  un_unvmc_igac_bnda_a1_departments: f => {
+    f.tippecanoe = {
+      layer: 'vmc_bnd',
+      minzoom: 7,
+      maxzoom: 8
+    }
+    return f
+  },
+  un_unvmc_igac_bnda_a1_departments_p: f => {
+    f.tippecanoe = {
+      layer: 'vmc_bnd',
+      minzoom: 7,
+      maxzoom: 8
+    }
+    return f
+  },
+  un_unvmc_igac_bnda_a2_municipalities: f => {
+    f.tippecanoe = {
+      layer: 'vmc_bnd',
+      minzoom: 9,
+      maxzoom: 10
+    }
+    return f
+  },
+  un_unvmc_igac_bnda_a2_municipalities_p: f => {
+    f.tippecanoe = {
+      layer: 'vmc_bnd',
+      minzoom: 9,
+      maxzoom: 10
+    }
+    return f
+  },
   un_unvmc_igac_bnda_a3_rural_units: f => {
+    f.tippecanoe = {
+      layer: 'vmc_bnd',
+      minzoom: 11,
+      maxzoom: 15
+    }
+    return f
+  },
+  un_unvmc_igac_bnda_a3_rural_units_p: f => {
     f.tippecanoe = {
       layer: 'vmc_bnd',
       minzoom: 11,
