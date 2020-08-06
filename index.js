@@ -253,6 +253,7 @@ const queue = new Queue(async (t, cb) => {
     '--no-tile-size-limit',
     '--force',
     '--simplification=2',
+    '--drop-rate=1',
     `--minimum-zoom=${Z}`,
     '--maximum-zoom=15',
     '--base-zoom=15',
