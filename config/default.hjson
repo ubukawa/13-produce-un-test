@@ -22,26 +22,34 @@
     un_base::un_global_places
     un_base::un_global_pois
     un_base::un_minusca_pois
+    un_base::un_mission_lc_ls
+    un_base::un_glc30_global_lc_ms
+    un_base::un_unmik_bnda_a2
+    un_base::un_unmik_bnda_a_p
     un_base::un_unmik_bnda_a3
     un_base::un_unmik_bnda_a3_p
     un_base::un_unmik_bnda_a_p
     un_base::un_unmik_bndl
-    un_base::un_unvmc_igac_bnda_a3_rural_units
+    un_base::un_unvmc_igac_bnda_a1_departments
     un_base::un_unvmc_igac_bnda_a1_departments_p
+    un_base::un_unvmc_igac_bnda_a2_municipalities
     un_base::un_unvmc_igac_bnda_a2_municipalities_p
+    un_base::un_unvmc_igac_bnda_a3_rural_units
     un_base::un_unvmc_igac_bnda_a3_rural_units_p
     un_base::un_unvmc_igac_bndl
     un_base::unhq_bnda_a1
     un_base::unhq_bnda_a2
     un_base::unhq_bnda_a1_p
     un_base::unhq_bnda_a2_p
+    un_base::unhq_bnda_cty_anno_l06
+    un_base::unhq_bnda05_cty
     un_base::unhq_bndl
     un_base::unhq_phyp
     un_base::unhq_popp
     un_base::custom_planet_ocean
     un_base::custom_planet_ocean_l08
-    un_base::un_mission_lc_ls
-    un_base::un_glc30_global_lc_ms
+
+
    ]
   defaultDate: 2020-08-01
   mbtilesDir: /data/mbtiles/un
