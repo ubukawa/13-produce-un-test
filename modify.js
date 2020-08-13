@@ -140,7 +140,7 @@ const lut = {
   },
  unhq_bnda_a1_p: f => {
     f.tippecanoe = {
-      layer: 'hq_bnd',
+      layer: 'hq_bnd_lab1',
       minzoom: 6,
       maxzoom: 8
     }
@@ -148,7 +148,7 @@ const lut = {
   },
   unhq_bnda_a2_p: f => {
     f.tippecanoe = {
-      layer: 'hq_bnd',
+      layer: 'hq_bnd_lab2',
       minzoom: 9,
       maxzoom: 15
     }
@@ -172,7 +172,7 @@ const lut = {
   },
   custom_unmap_0_bnda_a1_p: f => {
     f.tippecanoe = {
-      layer: 'c_bnd',
+      layer: 'c_bnd_lab1',
       minzoom: 6,
       maxzoom: 8
     }
@@ -180,7 +180,7 @@ const lut = {
   },
   custom_unmap_0_bnda_a2_p: f => {
     f.tippecanoe = {
-      layer: 'c_bnd',
+      layer: 'c_bnd_lab2',
       minzoom: 9,
       maxzoom: 15
     }
@@ -197,14 +197,14 @@ const lut = {
   un_unmik_bnda_a2: f => {
     f.tippecanoe = {
       layer: 'mik_bnd',
-      minzoom: 9,
-      maxzoom: 15
+      minzoom: 7,
+      maxzoom: 8
     }
     return f
   },
   un_unmik_bnda_a_p: f => {
     f.tippecanoe = {
-      layer: 'mik_bnd',
+      layer: 'mik_bnd_lab2',
       minzoom: 7,
       maxzoom: 8
     }
@@ -220,7 +220,7 @@ const lut = {
   },
   un_unmik_bnda_a3_p: f => {
     f.tippecanoe = {
-      layer: 'mik_bnd',
+      layer: 'mik_bnd_lab3',
       minzoom: 9,
       maxzoom: 15
     }
@@ -244,7 +244,7 @@ const lut = {
   },
   un_unvmc_igac_bnda_a1_departments_p: f => {
     f.tippecanoe = {
-      layer: 'vmc_bnd',
+      layer: 'vmc_bnd_lab1',
       minzoom: 7,
       maxzoom: 8
     }
@@ -260,7 +260,7 @@ const lut = {
   },
   un_unvmc_igac_bnda_a2_municipalities_p: f => {
     f.tippecanoe = {
-      layer: 'vmc_bnd',
+      layer: 'vmc_bnd_lab2',
       minzoom: 9,
       maxzoom: 10
     }
@@ -276,7 +276,7 @@ const lut = {
   },
   un_unvmc_igac_bnda_a3_rural_units_p: f => {
     f.tippecanoe = {
-      layer: 'vmc_bnd',
+      layer: 'vmc_bnd_lab3',
       minzoom: 11,
       maxzoom: 15
     }
